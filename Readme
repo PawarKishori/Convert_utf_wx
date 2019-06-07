@@ -9,7 +9,9 @@ sh comp.sh replace_a_
 sh comp.sh remove_non_ascii_chars
 5. 
 sh comp.sh wx_to_utf8
-6. 
+6.
+sh comp.sh wx_replace_a_
+7. 
 sh comp.sh remove_unnecessary_dev_chars
 
 
