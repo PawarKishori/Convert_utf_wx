@@ -1,18 +1,18 @@
 Compilation steps:
 1. 
-sh comp.sh utf8_to_wx
+sudo sh comp.sh utf8_to_wx
 2. 
-sh comp.sh replace_nukta
+sudo sh comp.sh replace_nukta
 3. 
-sh comp.sh replace_a_
+sudo sh comp.sh replace_a_
 4. 
-sh comp.sh remove_non_ascii_chars
+sudo sh comp.sh remove_non_ascii_chars
 5. 
-sh comp.sh wx_to_utf8
+sudo sh comp.sh wx_to_utf8
 6.
-sh comp.sh wx_replace_a_
+sudo sh comp.sh wx_replace_a_
 7. 
-sh comp.sh remove_unnecessary_dev_chars
+sudo sh comp.sh remove_unnecessary_dev_chars
 
 
 Step to run:
