@@ -1,0 +1,143 @@
+%%
+[^ @.*?@$] printf("%s",yytext);
+
+\342\200\215 printf("DEVNAGARI ZERO WIDTH JOINER");
+
+
+\340\244\200 printf("DEVANAGARI SIGN INVERTED CANDRABINDU");
+\340\244\201 printf("z");
+\340\244\202 printf("M");
+\340\244\203 printf("H");
+\340\244\204 printf("aV");
+\340\244\205 printf("a");
+\340\244\206 printf("A");
+\340\244\207 printf("i");
+\340\244\210 printf("I");
+\340\244\211 printf("u");
+\340\244\212 printf("U");
+\340\244\213 printf("q");
+\340\244\214 printf("L");
+\340\244\215 printf("eY");
+\340\244\216 printf("eV");
+\340\244\217 printf("e");
+
+\340\244\220 printf("E");
+\340\244\221 printf("oY");
+\340\244\222 printf("oV");
+\340\244\223 printf("o");
+\340\244\224 printf("O");
+\340\244\225 printf("ka");
+\340\244\226 printf("Ka");
+\340\244\227 printf("ga");
+\340\244\230 printf("Ga");
+\340\244\231 printf("fa");
+\340\244\232 printf("ca");
+\340\244\233 printf("Ca");
+\340\244\234 printf("ja");
+\340\244\235 printf("Ja");
+\340\244\236 printf("Fa");
+\340\244\237 printf("ta");
+
+\340\244\240 printf("Ta");
+\340\244\241 printf("da");
+\340\244\242 printf("Da");
+\340\244\243 printf("Na");
+\340\244\244 printf("wa");
+\340\244\245 printf("Wa");
+\340\244\246 printf("xa");
+\340\244\247 printf("Xa");
+\340\244\250 printf("na");
+\340\244\251 printf("nZa");
+\340\244\252 printf("pa");
+\340\244\253 printf("Pa");
+\340\244\254 printf("ba");
+\340\244\255 printf("Ba");
+\340\244\256 printf("ma");
+\340\244\257 printf("ya");
+
+\340\244\260 printf("ra");
+\340\244\261 printf("rZa");
+\340\244\262 printf("la");
+\340\244\263 printf("lY");
+\340\244\264 printf("lZY");
+\340\244\265 printf("va");
+\340\244\266 printf("Sa");
+\340\244\267 printf("Ra");
+\340\244\270 printf("sa");
+\340\244\271 printf("ha");
+\340\244\272 printf("DEVANAGARI VOWEL SIGN OE");
+\340\244\273 printf("DEVANAGARI VOWEL SIGN OOE");
+\340\244\274 printf("Z");
+\340\244\275 printf("z");
+\340\244\276 printf("_A");
+\340\244\277 printf("_i");
+
+\340\245\200 printf("_I");
+\340\245\201 printf("_u");
+\340\245\202 printf("_U");
+\340\245\203 printf("_q");
+\340\245\204 printf("_Q");
+\340\245\205 printf("eY");
+\340\245\206 printf("eV");
+\340\245\207 printf("_e");
+\340\245\210 printf("_E");
+\340\245\211 printf("oY");
+\340\245\212 printf("oV");
+\340\245\213 printf("_o");
+\340\245\214 printf("_O");
+\340\245\215 printf("_");
+\340\245\216 printf("DEVANAGARI VOWEL SIGN PRISHTHAMATRA E");
+\340\245\217 printf("DEVANAGARI VOWEL SIGN AW");
+
+\340\245\220 printf("DEVANAGARI OM");
+\340\245\221 printf("DEVANAGARI STRESS SIGN UDATTA");
+\340\245\222 printf("DEVANAGARI STRESS SIGN ANUDATTA");
+\340\245\223 printf("DEVANAGARI GRAVE ACCENT");
+\340\245\224 printf("DEVANAGARI ACUTE ACCENT");
+\340\245\225 printf("DEVANAGARI VOWEL SIGN CANDRA LONG E");
+\340\245\226 printf("DEVANAGARI VOWEL SIGN UE");
+\340\245\227 printf("DEVANAGARI VOWEL SIGN UUE");
+\340\245\230 printf("kZa");
+\340\245\231 printf("KZa");
+\340\245\232 printf("gZa");
+\340\245\233 printf("jZa");
+\340\245\234 printf("dZa");
+\340\245\235 printf("DZa");
+\340\245\236 printf("PZa");
+\340\245\237 printf("yZa");
+
+\340\245\240 printf("Q");
+\340\245\241 printf("DEVANAGARI LETTER VOCALIC LL");
+\340\245\242 printf("DEVANAGARI VOWEL SIGN VOCALIC L");
+\340\245\243 printf("DEVANAGARI VOWEL SIGN VOCALIC LL");
+\340\245\244 printf("DEVANAGARI DANDA");
+\340\245\245 printf("DEVANAGARI DOUBLE DANDA");
+\340\245\246 printf("0");
+\340\245\247 printf("1");
+\340\245\250 printf("2");
+\340\245\251 printf("3");
+\340\245\252 printf("4");
+\340\245\253 printf("5");
+\340\245\254 printf("6");
+\340\245\255 printf("7");
+\340\245\256 printf("8");
+\340\245\257 printf("9");
+
+\340\245\260 printf("DEVANAGARI ABBREVIATION SIGN");
+\340\245\261 printf("DEVANAGARI SIGN HIGH SPACING DOT");
+\340\245\262 printf("DEVANAGARI LETTER CANDRA A");
+\340\245\263 printf("DEVANAGARI LETTER OE");
+\340\245\264 printf("DEVANAGARI LETTER OOE");
+\340\245\265 printf("DEVANAGARI LETTER AW");
+\340\245\266 printf("DEVANAGARI LETTER UE");
+\340\245\267 printf("DEVANAGARI LETTER UUE");
+\340\245\270 printf("DEVANAGARI LETTER MARWARI DDA");
+\340\245\271 printf("DEVANAGARI LETTER ZHA");
+\340\245\272 printf("DEVANAGARI LETTER HEAVY YA");
+\340\245\273 printf("DEVANAGARI LETTER GGA");
+\340\245\274 printf("DEVANAGARI LETTER JJA");
+\340\245\275 printf("DEVANAGARI LETTER GLOTTAL STOP");
+\340\245\276 printf("DEVANAGARI LETTER DDDA");
+\340\245\277 printf("DEVANAGARI LETTER BBA");
+
+%%
