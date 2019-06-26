@@ -1,4 +1,5 @@
 %%
+[^ @.*?@$] printf("%s",yytext);
 
 \342\200\215 printf("DEVNAGARI ZERO WIDTH JOINER");
 

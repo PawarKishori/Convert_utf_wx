@@ -1,4 +1,17 @@
+%{
+#include<string.h>
+char str[10000];
+%}
+
+start_tag "$ENG_"
+end_tag "_ENG$"
+
 %%
+
+{start_tag}[^$]*{end_tag}  {
+			
+			printf("%s",yytext);
+		}
 
 z printf("ँ ");
 Z printf("़");
