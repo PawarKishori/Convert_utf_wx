@@ -15,10 +15,7 @@
 "#PUNC_PUNCTUATION SPACE_PUNC#" {printf(" ");}
 "#PUNC_THIN SPACE_PUNC#" {printf(" ");}
 "#PUNC_HAIR SPACE_PUNC#" {printf(" ");}
-"#PUNC_ZERO WIDTH SPACE_PUNC#" {printf("​​");}
 "#PUNC_ZERO WIDTH NON-JOINER_PUNC#" {printf("");}
-"#PUNC_LEFT-TO-RIGHT MARK_PUNC#" {printf("‎");}
-"#PUNC_RIGHT-TO-LEFT MARK_PUNC#" {printf("‏");}
 "#PUNC_HYPHEN_PUNC#" {printf("‐");}
 "#PUNC_NON-BREAKING HYPHEN_PUNC#" {printf("‑");}
 "#PUNC_FIGURE DASH_PUNC#" {printf("‒");}
@@ -44,9 +41,6 @@
 "#PUNC_HORIZONTAL ELLIPSIS_PUNC#" {printf("…");}
 "#PUNC_HYPHENATION POINT_PUNC#" {printf("‧");}
 "#PUNC_LINE SEPARATOR_PUNC#" {printf(" ");}
-"#PUNC_LEFT-TO-RIGHT EMBEDDING_PUNC#" {printf("‪");}
-"#PUNC_POP DIRECTIONAL FORMATTING_PUNC#" {printf("‬");}
-"#PUNC_RIGHT-TO-LEFT OVERRIDE_PUNC#" {printf("‮");}
 "#PUNC_NARROW NO-BREAK SPACE_PUNC#" {printf(" ");}
 "#PUNC_PER MILLE SIGN_PUNC#" {printf("‰");}
 "#PUNC_PER TEM THOUSAND SIGN_PUNC#" {printf("‱");}
@@ -104,11 +98,5 @@
 "#PUNC_LEFT-TO-RIGHT ISOLATE_PUNC#" {printf("⁦");}
 "#PUNC_FIRST STRONG ISOLATE_PUNC#" {printf("⁨");}
 "#PUNC_POP DIRECTIONAL ISOLATE_PUNC#" {printf("⁩");}
-"#PUNC_INHIBIT SYMMETRIC SWAPPING_PUNC#" {printf("⁪");}
-"#PUNC_ACTIVATE SYMMETRIC SWAPPING_PUNC#" {printf("⁫");}
-"#PUNC_INHIBIT ARABIC FORM SHAPING_PUNC#" {printf("⁬");}
-"#PUNC_ACTIVATE ARABIC FORM SHAPING_PUNC#" {printf("⁭");}
-"#PUNC_NATIONAL DIGIT SHAPES_PUNC#" {printf("⁮");}
-"#PUNC_NOMINAL DIGIT SHAPES_PUNC#" {printf("⁯");}
-"#PUNC_ZERO WIDTH JOINER_PUNC#" {printf("‍‍");}
+"#PUNC_ZERO WIDTH JOINER_PUNC#" {printf("");}
 %%

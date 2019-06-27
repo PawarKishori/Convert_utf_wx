@@ -1,10 +1,36 @@
-UTF_TO_WX CONVERTER
+CASES TO BE HANDLED IN label_remove.lex
 
 Possible patterns observed in output of hindi wx:
 
+1.
+#PUNC_ZERO WIDTH SPACE_PUNC#
+2.
+#PUNC_LEFT-TO-RIGHT MARK_PUNC#
+3.
+#PUNC_RIGHT-TO-LEFT MARK_PUNC#
+4.
+#PUNC_LEFT-TO-RIGHT EMBEDDING_PUNC#
+5.
+#PUNC_POP DIRECTIONAL FORMATTING_PUNC#
+6.
+#PUNC_RIGHT-TO-LEFT OVERRIDE_PUNC#
+7.
+#PUNC_INHIBIT SYMMETRIC SWAPPING_PUNC#
+8.
+#PUNC_ACTIVATE SYMMETRIC SWAPPING_PUNC#
+9.
+#PUNC_INHIBIT ARABIC FORM SHAPING_PUNC#
+10.
+#PUNC_ACTIVATE ARABIC FORM SHAPING_PUNC#
+11.
+#PUNC_NATIONAL DIGIT SHAPES_PUNC#
+12.
+#PUNC_NOMINAL DIGIT SHAPES_PUNC#
 
 
-To handle these patterns make changes in .lex
-The pattern to be replaced should be discussed and inserted.
+To handle these patterns make changes in label_remove.lex
+The pattern to be replaced should be discussed and inserted in the following fashion:
+	"<pattern>" {printf("<character>");}
+	ex: "#PUNC_POP DIRECTIONAL ISOLATE_PUNC#" {printf("⁩");}
 
 
