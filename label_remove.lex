@@ -11,11 +11,11 @@
 "#PUNC_THREE-PER-EM SPACE_PUNC#" {printf(" ");}
 "#PUNC_FOUR-PER-EM SPACE_PUNC#" {printf(" ");}
 "#PUNC_SIX-PER-EM SPACE_PUNC#" {printf("	 ");}
-"#PUNC_FIGURE SPACE_PUNC#" {printf("");}
+"#PUNC_FIGURE SPACE_PUNC#" { }
 "#PUNC_PUNCTUATION SPACE_PUNC#" {printf(" ");}
 "#PUNC_THIN SPACE_PUNC#" {printf(" ");}
 "#PUNC_HAIR SPACE_PUNC#" {printf(" ");}
-"#PUNC_ZERO WIDTH NON-JOINER_PUNC#" {printf("");}
+"#PUNC_ZERO WIDTH NON-JOINER_PUNC#" { }
 "#PUNC_HYPHEN_PUNC#" {printf("‐");}
 "#PUNC_NON-BREAKING HYPHEN_PUNC#" {printf("‑");}
 "#PUNC_FIGURE DASH_PUNC#" {printf("‒");}
@@ -98,5 +98,5 @@
 "#PUNC_LEFT-TO-RIGHT ISOLATE_PUNC#" {printf("⁦");}
 "#PUNC_FIRST STRONG ISOLATE_PUNC#" {printf("⁨");}
 "#PUNC_POP DIRECTIONAL ISOLATE_PUNC#" {printf("⁩");}
-"#PUNC_ZERO WIDTH JOINER_PUNC#" {printf("");}
+"#PUNC_ZERO WIDTH JOINER_PUNC#" { }
 %%

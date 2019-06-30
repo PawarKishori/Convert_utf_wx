@@ -375,8 +375,8 @@ static void yy_fatal_error (yyconst char msg[]  );
 	*yy_cp = '\0'; \
 	(yy_c_buf_p) = yy_cp;
 
-#define YY_NUM_RULES 112
-#define YY_END_OF_BUFFER 113
+#define YY_NUM_RULES 3
+#define YY_END_OF_BUFFER 4
 /* This struct is not used in this scanner,
    but its presence is necessary. */
 struct yy_trans_info
@@ -384,21 +384,10 @@ struct yy_trans_info
 	flex_int32_t yy_verify;
 	flex_int32_t yy_nxt;
 	};
-static yyconst flex_int16_t yy_accept[120] =
+static yyconst flex_int16_t yy_accept[16] =
     {   0,
-        0,    0,  113,  112,  112,    0,    0,    1,    2,    3,
-        4,    5,    6,    7,    8,    9,   10,   11,   12,   13,
-       14,   15,   16,   17,   18,   19,   20,   21,   22,   23,
-       24,   25,   26,   27,   28,   29,   30,   31,   32,   33,
-       34,   35,   36,   37,   38,   39,   40,   41,   42,   43,
-       44,   45,   46,   47,   48,   49,   50,   51,   52,   53,
-       54,   55,   56,   57,   58,   59,   60,   61,   62,   63,
-       64,   65,   66,   67,   68,   69,   70,   71,   72,   73,
-       74,   75,   76,   77,   78,   79,   80,   81,   82,   83,
-       84,   85,   86,   87,   88,   89,   90,   91,   92,   93,
-
-       94,   95,   96,   97,   98,   99,  100,  101,  102,  103,
-      104,  105,  106,  107,  108,  109,  110,  111,    0
+        0,    0,    4,    3,    3,    3,    0,    0,    0,    0,
+        0,    0,    1,    2,    0
     } ;
 
 static yyconst YY_CHAR yy_ec[256] =
@@ -406,6 +395,17 @@ static yyconst YY_CHAR yy_ec[256] =
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    2,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    3,    1,
+        4,    1,    1,    1,    1,    1,    1,    5,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    6,    1,    1,    1,    1,    1,
+
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
@@ -416,114 +416,43 @@ static yyconst YY_CHAR yy_ec[256] =
 
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    2,    3,    4,
-        5,    6,    7,    8,    9,   10,   11,   12,   13,   14,
-       15,   16,   17,   18,   19,   20,   21,   22,   23,   24,
-       25,   26,   27,   28,   29,   30,   31,   32,   33,   34,
-       35,   36,   37,   38,   39,   40,   41,   42,   43,   44,
-       45,   46,   47,   48,   49,   50,   51,   52,   53,   54,
-       55,   56,   57,   58,   59,   60,   61,   62,   63,   64,
-       65,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,   66,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1
     } ;
 
-static yyconst YY_CHAR yy_meta[67] =
+static yyconst YY_CHAR yy_meta[7] =
     {   0,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1
+        1,    2,    3,    4,    5,    6
     } ;
 
-static yyconst flex_uint16_t yy_base[121] =
+static yyconst flex_uint16_t yy_base[25] =
     {   0,
-       51,   50,  105,  118,    0,    2,   66,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-
-      118,  118,  118,  118,  118,  118,  118,  118,  118,  118,
-      118,  118,  118,  118,  118,  118,  118,  118,  118,    0
+        0,    5,   22,   23,    0,    0,    0,    0,    0,    0,
+        0,    0,   23,   23,   23,   11,   18,   17,   14,   13,
+        6,    5,    2,    1
     } ;
 
-static yyconst flex_int16_t yy_def[121] =
+static yyconst flex_int16_t yy_def[25] =
     {   0,
-      120,  120,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,    0,  119
+       16,   16,   15,   15,   17,   18,   19,   20,   21,   22,
+       23,   24,   15,   15,    0,   15,   15,   15,   15,   15,
+       15,   15,   15,   15
     } ;
 
-static yyconst flex_uint16_t yy_nxt[185] =
+static yyconst flex_uint16_t yy_nxt[30] =
     {   0,
-        4,    6,    7,    8,    9,   10,   11,   12,   13,   14,
-       15,   16,   17,   18,   19,   20,   21,   22,   23,   24,
-       25,   26,   27,   28,   29,   30,   31,   32,   33,   34,
-       35,   36,   37,   38,   39,   40,   41,   42,   43,   44,
-       45,   46,   47,   48,   49,   50,   51,   52,   53,   54,
-       55,   56,   57,   58,   59,   60,   61,   62,   63,   64,
-       65,   66,   67,   68,   69,   70,   71,   72,   73,   74,
-       75,   76,   77,   78,   79,   80,   81,   82,   83,   84,
-       85,   86,   87,   88,   89,   90,   91,   92,   93,   94,
-       95,   96,   97,   98,   99,  100,  101,  102,  103,  104,
-
-      105,  106,  107,  108,  119,  109,  110,  111,  112,  113,
-      114,  115,  116,  117,  118,    5,    5,    3,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119
+       15,    5,   14,   15,   15,    6,    5,   13,   12,   11,
+        6,    4,    4,    4,    4,    4,    4,   10,    9,    8,
+        7,   15,    3,   15,   15,   15,   15,   15,   15
     } ;
 
-static yyconst flex_int16_t yy_chk[185] =
+static yyconst flex_int16_t yy_chk[30] =
     {   0,
-      120,    5,    5,    6,    6,    6,    6,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    7,    7,    7,
-        7,    7,    7,    7,    7,    7,    7,    7,    7,    7,
-        7,    7,    7,    7,    7,    7,    7,    7,    7,    7,
-        7,    7,    7,    7,    7,    7,    7,    7,    7,    7,
-
-        7,    7,    7,    7,    3,    7,    7,    7,    7,    7,
-        7,    7,    7,    7,    7,    2,    1,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119,  119,  119,  119,  119,  119,  119,
-      119,  119,  119,  119
+        0,    1,   24,    0,    0,    1,    2,   23,   22,   21,
+        2,   16,   16,   16,   16,   16,   16,   20,   19,   18,
+       17,    3,   15,   15,   15,   15,   15,   15,   15
     } ;
 
 static yy_state_type yy_last_accepting_state;
@@ -540,8 +469,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "remove_non_ascii_chars.lex"
-#line 545 "lex.yy.c"
+#line 1 "remove_engtag.lex"
+#line 474 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -759,9 +688,9 @@ YY_DECL
 		}
 
 	{
-#line 1 "remove_non_ascii_chars.lex"
+#line 1 "remove_engtag.lex"
 
-#line 765 "lex.yy.c"
+#line 694 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -788,13 +717,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 120 )
+				if ( yy_current_state >= 16 )
 					yy_c = yy_meta[(unsigned int) yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 118 );
+		while ( yy_base[yy_current_state] != 23 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -820,565 +749,20 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 2 "remove_non_ascii_chars.lex"
-printf("#PUNC_EN QUAD_PUNC#");
+#line 2 "remove_engtag.lex"
+printf("");
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 3 "remove_non_ascii_chars.lex"
-printf("#PUNC_EM QUAD_PUNC#");
+#line 3 "remove_engtag.lex"
+printf("");
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 4 "remove_non_ascii_chars.lex"
-printf("#PUNC_EN SPACE_PUNC#");
-	YY_BREAK
-case 4:
-YY_RULE_SETUP
-#line 5 "remove_non_ascii_chars.lex"
-printf("#PUNC_EM SPACE_PUNC#");
-	YY_BREAK
-case 5:
-YY_RULE_SETUP
-#line 6 "remove_non_ascii_chars.lex"
-printf("#PUNC_THREE-PER-EM SPACE_PUNC#");
-	YY_BREAK
-case 6:
-YY_RULE_SETUP
-#line 7 "remove_non_ascii_chars.lex"
-printf("#PUNC_FOUR-PER-EM SPACE_PUNC#");
-	YY_BREAK
-case 7:
-YY_RULE_SETUP
-#line 8 "remove_non_ascii_chars.lex"
-printf("#PUNC_SIX-PER-EM SPACE_PUNC#");
-	YY_BREAK
-case 8:
-YY_RULE_SETUP
-#line 9 "remove_non_ascii_chars.lex"
-printf("#PUNC_FIGURE SPACE_PUNC#");
-	YY_BREAK
-case 9:
-YY_RULE_SETUP
-#line 10 "remove_non_ascii_chars.lex"
-printf("#PUNC_PUNCTUATION SPACE_PUNC#");
-	YY_BREAK
-case 10:
-YY_RULE_SETUP
-#line 11 "remove_non_ascii_chars.lex"
-printf("#PUNC_THIN SPACE_PUNC#");
-	YY_BREAK
-case 11:
-YY_RULE_SETUP
-#line 12 "remove_non_ascii_chars.lex"
-printf("#PUNC_HAIR SPACE_PUNC#");
-	YY_BREAK
-case 12:
-YY_RULE_SETUP
-#line 13 "remove_non_ascii_chars.lex"
-printf("#PUNC_ZERO WIDTH SPACE_PUNC#");
-	YY_BREAK
-case 13:
-YY_RULE_SETUP
-#line 14 "remove_non_ascii_chars.lex"
-printf("#PUNC_ZERO WIDTH NON-JOINER_PUNC#");
-	YY_BREAK
-case 14:
-YY_RULE_SETUP
-#line 15 "remove_non_ascii_chars.lex"
-printf("#PUNC_ZERO WIDTH JOINER_PUNC#");
-	YY_BREAK
-case 15:
-YY_RULE_SETUP
-#line 16 "remove_non_ascii_chars.lex"
-printf("#PUNC_LEFT-TO-RIGHT MARK_PUNC#");
-	YY_BREAK
-case 16:
-YY_RULE_SETUP
-#line 17 "remove_non_ascii_chars.lex"
-printf("#PUNC_RIGHT-TO-LEFT MARK_PUNC#");
-	YY_BREAK
-case 17:
-YY_RULE_SETUP
-#line 19 "remove_non_ascii_chars.lex"
-printf("#PUNC_HYPHEN_PUNC#");
-	YY_BREAK
-case 18:
-YY_RULE_SETUP
-#line 20 "remove_non_ascii_chars.lex"
-printf("#PUNC_NON-BREAKING HYPHEN_PUNC#");
-	YY_BREAK
-case 19:
-YY_RULE_SETUP
-#line 21 "remove_non_ascii_chars.lex"
-printf("#PUNC_FIGURE DASH_PUNC#");
-	YY_BREAK
-case 20:
-YY_RULE_SETUP
-#line 22 "remove_non_ascii_chars.lex"
-printf("#PUNC_EN DASH_PUNC#");
-	YY_BREAK
-case 21:
-YY_RULE_SETUP
-#line 23 "remove_non_ascii_chars.lex"
-printf("#PUNC_EM DASH_PUNC#");
-	YY_BREAK
-case 22:
-YY_RULE_SETUP
-#line 24 "remove_non_ascii_chars.lex"
-printf("#PUNC_HORIZONTAL BAR_PUNC#");
-	YY_BREAK
-case 23:
-YY_RULE_SETUP
-#line 25 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOUBLE VERTICAL LINE_PUNC#");
-	YY_BREAK
-case 24:
-YY_RULE_SETUP
-#line 26 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOUBLE LOW LINE_PUNC#");
-	YY_BREAK
-case 25:
-YY_RULE_SETUP
-#line 27 "remove_non_ascii_chars.lex"
-printf("#PUNC_LEFT SINGLE QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 26:
-YY_RULE_SETUP
-#line 28 "remove_non_ascii_chars.lex"
-printf("#PUNC_RIGHT SINGLE QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 27:
-YY_RULE_SETUP
-#line 29 "remove_non_ascii_chars.lex"
-printf("#PUNC_SINGLE LOW-9 QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 28:
-YY_RULE_SETUP
-#line 30 "remove_non_ascii_chars.lex"
-printf("#PUNC_SINGLE HIGH-REVERSED-9 QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 29:
-YY_RULE_SETUP
-#line 31 "remove_non_ascii_chars.lex"
-printf("#PUNC_LEFT DOUBLE QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 30:
-YY_RULE_SETUP
-#line 32 "remove_non_ascii_chars.lex"
-printf("#PUNC_RIGHT DOUBLE QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 31:
-YY_RULE_SETUP
-#line 33 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOUBLE LOW-9 QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 32:
-YY_RULE_SETUP
-#line 34 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOUBLE HIGH-REVERSED-9 QUOTATION MAR_PUNC#");
-	YY_BREAK
-case 33:
-YY_RULE_SETUP
-#line 36 "remove_non_ascii_chars.lex"
-printf("#PUNC_DAGGER_PUNC#");
-	YY_BREAK
-case 34:
-YY_RULE_SETUP
-#line 37 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOUBLE DAGGER_PUNC#");
-	YY_BREAK
-case 35:
-YY_RULE_SETUP
-#line 38 "remove_non_ascii_chars.lex"
-printf("#PUNC_BULLET_PUNC#");
-	YY_BREAK
-case 36:
-YY_RULE_SETUP
-#line 39 "remove_non_ascii_chars.lex"
-printf("#PUNC_TRIANGULAR BULLET_PUNC#");
-	YY_BREAK
-case 37:
-YY_RULE_SETUP
-#line 40 "remove_non_ascii_chars.lex"
-printf("#PUNC_ONE DOT LEADER_PUNC#");
-	YY_BREAK
-case 38:
-YY_RULE_SETUP
-#line 41 "remove_non_ascii_chars.lex"
-printf("#PUNC_TWO DOT LEADER_PUNC#");
-	YY_BREAK
-case 39:
-YY_RULE_SETUP
-#line 42 "remove_non_ascii_chars.lex"
-printf("#PUNC_HORIZONTAL ELLIPSIS_PUNC#");
-	YY_BREAK
-case 40:
-YY_RULE_SETUP
-#line 43 "remove_non_ascii_chars.lex"
-printf("#PUNC_HYPHENATION POINT_PUNC#");
-	YY_BREAK
-case 41:
-YY_RULE_SETUP
-#line 44 "remove_non_ascii_chars.lex"
-printf("#PUNC_LINE SEPARATOR_PUNC#");
-	YY_BREAK
-case 42:
-YY_RULE_SETUP
-#line 45 "remove_non_ascii_chars.lex"
-printf("#PUNC_PARAGRAPH SEPARATOR_PUNC#");
-	YY_BREAK
-case 43:
-YY_RULE_SETUP
-#line 46 "remove_non_ascii_chars.lex"
-printf("#PUNC_LEFT-TO-RIGHT EMBEDDING_PUNC#");
-	YY_BREAK
-case 44:
-YY_RULE_SETUP
-#line 47 "remove_non_ascii_chars.lex"
-printf("#PUNC_RIGHT-TO-LEFT EMBEDDING_PUNC#");
-	YY_BREAK
-case 45:
-YY_RULE_SETUP
-#line 48 "remove_non_ascii_chars.lex"
-printf("#PUNC_POP DIRECTIONAL FORMATTING_PUNC#");
-	YY_BREAK
-case 46:
-YY_RULE_SETUP
-#line 49 "remove_non_ascii_chars.lex"
-printf("#PUNC_LEFT-TO-RIGHT OVERRIDE_PUNC#");
-	YY_BREAK
-case 47:
-YY_RULE_SETUP
-#line 50 "remove_non_ascii_chars.lex"
-printf("#PUNC_RIGHT-TO-LEFT OVERRIDE_PUNC#");
-	YY_BREAK
-case 48:
-YY_RULE_SETUP
-#line 51 "remove_non_ascii_chars.lex"
-printf("#PUNC_NARROW NO-BREAK SPACE_PUNC#");
-	YY_BREAK
-case 49:
-YY_RULE_SETUP
-#line 53 "remove_non_ascii_chars.lex"
-printf("#PUNC_PER MILLE SIGN_PUNC#");
-	YY_BREAK
-case 50:
-YY_RULE_SETUP
-#line 54 "remove_non_ascii_chars.lex"
-printf("#PUNC_PER TEM THOUSAND SIGN_PUNC#");
-	YY_BREAK
-case 51:
-YY_RULE_SETUP
-#line 55 "remove_non_ascii_chars.lex"
-printf("#PUNC_PRIME_PUNC#");
-	YY_BREAK
-case 52:
-YY_RULE_SETUP
-#line 56 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOUBLE PRIME_PUNC#");
-	YY_BREAK
-case 53:
-YY_RULE_SETUP
-#line 57 "remove_non_ascii_chars.lex"
-printf("#PUNC_TRIPLE PRIME_PUNC#");
-	YY_BREAK
-case 54:
-YY_RULE_SETUP
-#line 58 "remove_non_ascii_chars.lex"
-printf("#PUNC_REVERSED PRIME_PUNC#");
-	YY_BREAK
-case 55:
-YY_RULE_SETUP
-#line 59 "remove_non_ascii_chars.lex"
-printf("#PUNC_REVERSED DOUBLE PRIME_PUNC#");
-	YY_BREAK
-case 56:
-YY_RULE_SETUP
-#line 60 "remove_non_ascii_chars.lex"
-printf("#PUNC_REVERSED TRIPLE PRIME_PUNC#");
-	YY_BREAK
-case 57:
-YY_RULE_SETUP
-#line 61 "remove_non_ascii_chars.lex"
-printf("#PUNC_CARET_PUNC#");
-	YY_BREAK
-case 58:
-YY_RULE_SETUP
-#line 62 "remove_non_ascii_chars.lex"
-printf("#PUNC_SINGLE LEFT-POINTING ANGLE QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 59:
-YY_RULE_SETUP
-#line 63 "remove_non_ascii_chars.lex"
-printf("#PUNC_SINGLE RIGHT-POINTING ANGLE QUOTATION MARK_PUNC#");
-	YY_BREAK
-case 60:
-YY_RULE_SETUP
-#line 64 "remove_non_ascii_chars.lex"
-printf("#PUNC_REFERENCE MARK_PUNC#");
-	YY_BREAK
-case 61:
-YY_RULE_SETUP
-#line 65 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOUBLE EXCLAMATION MARK_PUNC#");
-	YY_BREAK
-case 62:
-YY_RULE_SETUP
-#line 66 "remove_non_ascii_chars.lex"
-printf("#PUNC_INTERROBANG_PUNC#");
-	YY_BREAK
-case 63:
-YY_RULE_SETUP
-#line 67 "remove_non_ascii_chars.lex"
-printf("#PUNC_OVERLINE_PUNC#");
-	YY_BREAK
-case 64:
-YY_RULE_SETUP
-#line 68 "remove_non_ascii_chars.lex"
-printf("#PUNC_UNDERTIE_PUNC#");
-	YY_BREAK
-case 65:
-YY_RULE_SETUP
-#line 70 "remove_non_ascii_chars.lex"
-printf("#PUNC_CHARACTER TIE_PUNC#");
-	YY_BREAK
-case 66:
-YY_RULE_SETUP
-#line 71 "remove_non_ascii_chars.lex"
-printf("#PUNC_CARET INSERTION POINT_PUNC#");
-	YY_BREAK
-case 67:
-YY_RULE_SETUP
-#line 72 "remove_non_ascii_chars.lex"
-printf("#PUNC_ASTERISM_PUNC#");
-	YY_BREAK
-case 68:
-YY_RULE_SETUP
-#line 73 "remove_non_ascii_chars.lex"
-printf("#PUNC_HYPHEN BULLET_PUNC#");
-	YY_BREAK
-case 69:
-YY_RULE_SETUP
-#line 74 "remove_non_ascii_chars.lex"
-printf("#PUNC_FRACTION SLASH_PUNC#");
-	YY_BREAK
-case 70:
-YY_RULE_SETUP
-#line 75 "remove_non_ascii_chars.lex"
-printf("#PUNC_LEFT SQUARE BRACKET WITH QUILL_PUNC#");
-	YY_BREAK
-case 71:
-YY_RULE_SETUP
-#line 76 "remove_non_ascii_chars.lex"
-printf("#PUNC_RIGHT SQUARE BRACKET WITH QUILL_PUNC#");
-	YY_BREAK
-case 72:
-YY_RULE_SETUP
-#line 77 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOUBLE QUESTION MARK_PUNC#");
-	YY_BREAK
-case 73:
-YY_RULE_SETUP
-#line 78 "remove_non_ascii_chars.lex"
-printf("#PUNC_QUESTION EXCLAMATION MARK_PUNC#");
-	YY_BREAK
-case 74:
-YY_RULE_SETUP
-#line 79 "remove_non_ascii_chars.lex"
-printf("#PUNC_EXCLAMATION QUESTION MARK_PUNC#");
-	YY_BREAK
-case 75:
-YY_RULE_SETUP
-#line 80 "remove_non_ascii_chars.lex"
-printf("#PUNC_TIRONIAN SIGN ET_PUNC#");
-	YY_BREAK
-case 76:
-YY_RULE_SETUP
-#line 81 "remove_non_ascii_chars.lex"
-printf("#PUNC_REVERSED PILCROW SIGN_PUNC#");
-	YY_BREAK
-case 77:
-YY_RULE_SETUP
-#line 82 "remove_non_ascii_chars.lex"
-printf("#PUNC_BLACK LEFTWARDS BULLET_PUNC#");
-	YY_BREAK
-case 78:
-YY_RULE_SETUP
-#line 83 "remove_non_ascii_chars.lex"
-printf("#PUNC_BLACK RIGHTWARDS BULLET_PUNC#");
-	YY_BREAK
-case 79:
-YY_RULE_SETUP
-#line 84 "remove_non_ascii_chars.lex"
-printf("#PUNC_LOW ASTERISK_PUNC#");
-	YY_BREAK
-case 80:
-YY_RULE_SETUP
-#line 85 "remove_non_ascii_chars.lex"
-printf("#PUNC_REVERSED SEMICOLON_PUNC#");
-	YY_BREAK
-case 81:
-YY_RULE_SETUP
-#line 87 "remove_non_ascii_chars.lex"
-printf("#PUNC_CLOSE UP_PUNC#");
-	YY_BREAK
-case 82:
-YY_RULE_SETUP
-#line 88 "remove_non_ascii_chars.lex"
-printf("#PUNC_TWO ASTERISKS ALIGNED VERTICALLY_PUNC#");
-	YY_BREAK
-case 83:
-YY_RULE_SETUP
-#line 89 "remove_non_ascii_chars.lex"
-printf("#PUNC_COMMERCIAL MINUS SIGN_PUNC#");
-	YY_BREAK
-case 84:
-YY_RULE_SETUP
-#line 90 "remove_non_ascii_chars.lex"
-printf("#PUNC_SWUNG DASH_PUNC#");
-	YY_BREAK
-case 85:
-YY_RULE_SETUP
-#line 91 "remove_non_ascii_chars.lex"
-printf("#PUNC_INVERTED UNDERTIE_PUNC#");
-	YY_BREAK
-case 86:
-YY_RULE_SETUP
-#line 92 "remove_non_ascii_chars.lex"
-printf("#PUNC_FLOWER PUNCTUATION MARK_PUNC#");
-	YY_BREAK
-case 87:
-YY_RULE_SETUP
-#line 93 "remove_non_ascii_chars.lex"
-printf("#PUNC_QUADRUPLE PRIME_PUNC#");
-	YY_BREAK
-case 88:
-YY_RULE_SETUP
-#line 94 "remove_non_ascii_chars.lex"
-printf("#PUNC_FOUR DOT PUNCTUATION_PUNC#");
-	YY_BREAK
-case 89:
-YY_RULE_SETUP
-#line 95 "remove_non_ascii_chars.lex"
-printf("#PUNC_FIVE DOT PUNCTUATION_PUNC#");
-	YY_BREAK
-case 90:
-YY_RULE_SETUP
-#line 96 "remove_non_ascii_chars.lex"
-printf("#PUNC_TWO DOT PUNCTUATION_PUNC#");
-	YY_BREAK
-case 91:
-YY_RULE_SETUP
-#line 97 "remove_non_ascii_chars.lex"
-printf("#PUNC_FOUR DOT MARK_PUNC#");
-	YY_BREAK
-case 92:
-YY_RULE_SETUP
-#line 98 "remove_non_ascii_chars.lex"
-printf("#PUNC__PUNC#");
-	YY_BREAK
-case 93:
-YY_RULE_SETUP
-#line 99 "remove_non_ascii_chars.lex"
-printf("#PUNC_DOTTED CROSS_PUNC#");
-	YY_BREAK
-case 94:
-YY_RULE_SETUP
-#line 100 "remove_non_ascii_chars.lex"
-printf("#PUNC_TRICOLON_PUNC#");
-	YY_BREAK
-case 95:
-YY_RULE_SETUP
-#line 101 "remove_non_ascii_chars.lex"
-printf("#PUNC_VERTICAL FOUR DOTS_PUNC#");
-	YY_BREAK
-case 96:
-YY_RULE_SETUP
-#line 102 "remove_non_ascii_chars.lex"
-printf("#PUNC_MEDIUM MATHEMATICAL SPACE_PUNC#");
-	YY_BREAK
-case 97:
-YY_RULE_SETUP
-#line 104 "remove_non_ascii_chars.lex"
-printf("#PUNC_WORD JOINER_PUNC#");
-	YY_BREAK
-case 98:
-YY_RULE_SETUP
-#line 105 "remove_non_ascii_chars.lex"
-printf("#PUNC_FUNCTION APPLICATION_PUNC#");
-	YY_BREAK
-case 99:
-YY_RULE_SETUP
-#line 106 "remove_non_ascii_chars.lex"
-printf("#PUNC_INVISIBLE TIMES_PUNC#");
-	YY_BREAK
-case 100:
-YY_RULE_SETUP
-#line 107 "remove_non_ascii_chars.lex"
-printf("#PUNC_INVISIBLE SEPARATOR_PUNC#");
-	YY_BREAK
-case 101:
-YY_RULE_SETUP
-#line 108 "remove_non_ascii_chars.lex"
-printf("#PUNC_INVISIBLE PLUS_PUNC#");
-	YY_BREAK
-case 102:
-YY_RULE_SETUP
-#line 109 "remove_non_ascii_chars.lex"
-printf("#PUNC_LEFT-TO-RIGHT ISOLATE_PUNC#");
-	YY_BREAK
-case 103:
-YY_RULE_SETUP
-#line 110 "remove_non_ascii_chars.lex"
-printf("#PUNC_RIGHT-TO-LEFT ISOLATE_PUNC#");
-	YY_BREAK
-case 104:
-YY_RULE_SETUP
-#line 111 "remove_non_ascii_chars.lex"
-printf("#PUNC_FIRST STRONG ISOLATE_PUNC#");
-	YY_BREAK
-case 105:
-YY_RULE_SETUP
-#line 112 "remove_non_ascii_chars.lex"
-printf("#PUNC_POP DIRECTIONAL ISOLATE_PUNC#");
-	YY_BREAK
-case 106:
-YY_RULE_SETUP
-#line 113 "remove_non_ascii_chars.lex"
-printf("#PUNC_INHIBIT SYMMETRIC SWAPPING_PUNC#");
-	YY_BREAK
-case 107:
-YY_RULE_SETUP
-#line 114 "remove_non_ascii_chars.lex"
-printf("#PUNC_ACTIVATE SYMMETRIC SWAPPING_PUNC#");
-	YY_BREAK
-case 108:
-YY_RULE_SETUP
-#line 115 "remove_non_ascii_chars.lex"
-printf("#PUNC_INHIBIT ARABIC FORM SHAPING_PUNC#");
-	YY_BREAK
-case 109:
-YY_RULE_SETUP
-#line 116 "remove_non_ascii_chars.lex"
-printf("#PUNC_ACTIVATE ARABIC FORM SHAPING_PUNC#");
-	YY_BREAK
-case 110:
-YY_RULE_SETUP
-#line 117 "remove_non_ascii_chars.lex"
-printf("#PUNC_NATIONAL DIGIT SHAPES_PUNC#");
-	YY_BREAK
-case 111:
-YY_RULE_SETUP
-#line 118 "remove_non_ascii_chars.lex"
-printf("#PUNC_NOMINAL DIGIT SHAPES_PUNC#");
-	YY_BREAK
-case 112:
-YY_RULE_SETUP
-#line 119 "remove_non_ascii_chars.lex"
+#line 4 "remove_engtag.lex"
 ECHO;
 	YY_BREAK
-#line 1382 "lex.yy.c"
+#line 766 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1671,7 +1055,7 @@ static int yy_get_next_buffer (void)
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 120 )
+			if ( yy_current_state >= 16 )
 				yy_c = yy_meta[(unsigned int) yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
@@ -1699,11 +1083,11 @@ static int yy_get_next_buffer (void)
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 120 )
+		if ( yy_current_state >= 16 )
 			yy_c = yy_meta[(unsigned int) yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
-	yy_is_jam = (yy_current_state == 119);
+	yy_is_jam = (yy_current_state == 15);
 
 		return yy_is_jam ? 0 : yy_current_state;
 }
@@ -2379,7 +1763,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 119 "remove_non_ascii_chars.lex"
+#line 4 "remove_engtag.lex"
 
 
 
