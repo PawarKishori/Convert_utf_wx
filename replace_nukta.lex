@@ -1,3 +1,11 @@
+%{
+#include<string.h>
+char str[10000];
+%}
+
+start_tag "@"
+end_tag "@"
+
 %%
 
 aZ printf("Za");
@@ -10,5 +18,5 @@ eZ printf("Ze");
 EZ printf("ZE");
 oZ printf("Zo");
 OZ printf("ZO");
-[@][#A-Z0-9_ -]+[@$] printf("%s",yytext);
+{start_tag}[a-zA-Z#\-_0-9]{end_tag} printf("%s",yytext);
 %%

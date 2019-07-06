@@ -12,5 +12,5 @@ end_tag "_PUNC#"
 			
 			printf("@%s@",yytext);
 		}
-[a-zA-Z0-9]+[-.a-z+A-Z+0-9+%–_]*? {printf("@%s@",yytext);}
+[a-zA-Z0-9_]+[-.a-z+A-Z+0-9+%–_]*? {printf("@%s@",yytext);}
 %%
