@@ -1,4 +1,4 @@
-./remove_non_ascii_chars.out > temp0
+./remove_non_ascii_chars.out  < $1 > temp0
 ./adding_deli.out <temp0 >temp2
 ./utf8_to_wx.out < temp2 > temp
 ./replace_nukta.out < temp > temp1 
